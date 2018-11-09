@@ -1,0 +1,7 @@
+AuthName "pkw.onecreative.eu statistics"
+AuthType Basic
+AuthUserFile /home/pkw/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
